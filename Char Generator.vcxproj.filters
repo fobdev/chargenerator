@@ -13,21 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Portuguese">
+      <UniqueIdentifier>{eba1facb-dc24-4122-9687-9eca7d8dc666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\English">
+      <UniqueIdentifier>{392ea263-183c-4095-aa21-6b04e98c6384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Portuguese">
+      <UniqueIdentifier>{46bfe77f-96e8-48fd-ae3b-0a06700e8e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\English">
+      <UniqueIdentifier>{07c2f268-6370-4bb2-82c1-c1955a9f1b7a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MainSource.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="CSPT.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Portuguese</Filter>
+    </ClCompile>
+    <ClCompile Include="MainSource.cpp">
+      <Filter>Source Files\English</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MainSource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="CSPT.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Portuguese</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSource.h">
+      <Filter>Header Files\English</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
